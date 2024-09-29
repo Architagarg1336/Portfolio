@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Archita Garg" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Archita Garg">Archita Garg</h1>
+
+          <!-- <p class="title">Web developer</p> -->
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:architagarg93@gmail.com" class="contact-link">architagarg93@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+7814575950" class="contact-link">+91 7814575950</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-05-10">May 10, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Chandigarh , India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/archita-garg-a49873302/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+         
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A skilled full-stack web and iOS app developer with a strong focus on building intuitive, user-friendly applications. With experience in modern technologies such as React, Node.js, Express, MongoDB, MySQL, and Tailwind CSS, combined with current work in iOS development using SwiftUI and UIKit, consistently delivering high-quality, efficient solutions for both web and mobile platforms
+          </p>
+
+          <h3 class="techStackHeadings">Tech Stack</h3>
+  <div class = "techStackGroup">
+  <h4 class="techStackHeadings">Frontend:</h4>
+ <p>HTML, CSS, Tailwind CSS, React, JavaScript</p>
+</div>
+  
+  <div class = "techStackGroup">
+  <h4 class="techStackHeadings">Backend:</h4>
+  <p>Node, Express.js</p>
+  </div>
+  
+  <div class = "techStackGroup">
+  <h4 class="techStackHeadings">Database:</h4>
+  <p>MongoDB, MySQL, OracleDB</p>
+  </div>
+  
+  <div class = "techStackGroup">
+  <h4 class="techStackHeadings">UI/UX Designs:</h4>
+  <p>Figma</p>
+  </div>
+  
+
+  <div class = "techStackGroup">
+  <h4 class="techStackHeadings">iOS Mobile App Development:</h4>
+  <p>SwiftUI, UIKit Storyboard</p>
+  </div>
+  
+  <div class = "techStackGroup">
+  <h4 class="techStackHeadings">Programming Languages:</h4>
+  <p>Java, C++, Swift</p>
+  </div>
+
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+            
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Specializing in full-stack web development, integrating front-end aesthetics with back-end functionality.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IOS Mobile app development</h4>
+
+                <p class="service-item-text">
+                  Specializing in scalable, intuitive iOS applications using Swift and Xcode
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+             
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data structure and Algorithms</h4>
+
+                <p class="service-item-text">
+                  Enhancing problem-solving skills through optimized algorithms and data structures.
+                </p>
+              </div>
+
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+
+      
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+
+          <div class="overlay" data-overlay></div>
+
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+
+
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Chitkara University </h4>
+
+              <span>2022 — 2026</span>
+
+              
+
+            </li>
+
+            
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SRS VidyaPeeth , Samana</h4>
+
+              <span>Completed in 2021</span>
+
+             
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!---  <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Creative director</h4>
+
+              <span>2015 — Present</span>
+
+              <p class="timeline-text">
+                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+                molestias
+                exceptur.
+              </p>
+
+            </li>
+
+           
+
+            
+
+          </ol>
+
+        </section>-->
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Full Stack Web development</h5>
+                <data value="80">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">IOS App Development</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Structures and Algorithms </h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JAVA</h5>
+                <data value="70">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>IOS Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>IOS Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                  <figure class="project-img">
+                      <div class="project-item-icon-box">
+                          <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+                      <img src="./assets/images/Nourify.jpeg" alt="summary" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Nourify</h3>
+                  <p class="project-category">Web Development</p>
+              </a>
+              <button class="tech-stack-button" onclick="toggleTechStack('techStackInfo1')">Tech Stack</button>
+              <div id="techStackInfo1" class="tech-stack-info">
+                  <p>Tech Stack: <br>
+                      <b>Frontend:</b> React, JavaScript, CSS, and Tailwind CSS
+                      <b>Backend:</b> Node.js and Express
+                      <b>Database:</b> MongoDB (non-relational)
+                      <b>API Integration:</b> Google Gemini API
+                      <b>Authentication: </b>JWT for secure user authentication
+                  </p>
+              </div>
+          </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://jewellery-fawn.vercel.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Inayat.png" alt="Inayat" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Inayat</h3>
+
+                <p class="project-category">Web development</p>
+
+              
+              </a>
+
+              <button class="tech-stack-button" onclick="toggleTechStack('techStackInfo2')">Tech Stack</button>
+              <div id="techStackInfo2" class="tech-stack-info">
+                  <p>Tech Stack: <br>
+                     Basic HTML and CSS for Frontend
+                     javascript for local stoarge and functioanlity
+                  </p>
+              </div>
+
+            </li>
+
+            <!-- <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li> -->
+
+            <!-- <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+      <!--
+        - #CONTACT
+      -->
+
+    
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
