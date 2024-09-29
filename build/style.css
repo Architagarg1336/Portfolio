@@ -1422,7 +1422,9 @@ main {
 
   .techStackHeadings {
     color: #76ABAE;
+   
   }
+
   .techStackGroup {
     display: flex;
   }
